@@ -1,0 +1,134 @@
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+
+
+body {
+  background-color: #f9f9f9;
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+#root {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1, h2, h3 {
+  text-align: center;
+}
+
+.message, 
+.loading {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-content {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.container-form, .container-table {
+  width: 48%;
+  background-color: #fff;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  max-width: 420px;
+  margin: 0 auto;
+}
+
+form input[type="text"] {
+  margin-bottom: 10px;
+  padding: 16px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+form input[type="submit"], form input[type="reset"] {
+  padding: 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+form input[type="submit"] {
+  background-color: #0b44b5;
+  color: white;
+}
+
+form input[type="reset"] {
+  background-color: #b80c59;
+  color: white;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+
+}
+
+
+table th, table td {
+  padding: 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+}
+
+table th {
+  background-color: #f2f2f2;
+}
+
+table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+table tr:hover {
+  background-color: #f1f1f1;
+}
+
+input:focus {
+  outline: none;
+}
+
+button {
+  padding: 10px 16px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.yellow {
+  background-color: #e19805;
+  color: white;
+}
+
+.red {
+  background-color: #d7081d;
+  color: white;
+}
+
+.row-buttons {
+  display: flex; 
+  justify-content: center;
+  gap: 4px;
+}
